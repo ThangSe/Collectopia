@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e54dbc9e267a924585346eff6948bf1, type: 3}
+  m_Name: GameSettingsDefault
+  m_EditorClassIdentifier: 
+  unwalkableLayerMask:
+    serializedVersion: 2
+    m_Bits: 64
+  newPlaceLayerMask:
+    serializedVersion: 2
+    m_Bits: 128
+  currentScore: {fileID: 11400000, guid: ea81c6f773654ad419a4eeb04565f938, type: 2}
+  turnPlayLeft: {fileID: 11400000, guid: f0f66eef17e3f3249bafdb81941e2012, type: 2}
+  turnPlayMax: {fileID: 11400000, guid: e39cf23959ab3814baaeff9460511a15, type: 2}
+  currentHeart: {fileID: 11400000, guid: 49a11eea7247b8f47a9b9a5a12c5845c, type: 2}
+  maxHeart: {fileID: 11400000, guid: 2a1fe0af8ba1fb3439f8312ef4d4b556, type: 2}
+  countdownToStartTime: {fileID: 11400000, guid: b7ac9059f5bbf7b4494450968edf6c58, type: 2}
+  countdownToStartTimeMax: {fileID: 11400000, guid: c7225811032fbf546a17c3b0eed0e7ea, type: 2}
+  playingTime: {fileID: 11400000, guid: 2f8b6755b028c88428b780f724d663fb, type: 2}
+  playingTimeMax: {fileID: 11400000, guid: 28e1804fcc1941b4294b79c01250ab40, type: 2}

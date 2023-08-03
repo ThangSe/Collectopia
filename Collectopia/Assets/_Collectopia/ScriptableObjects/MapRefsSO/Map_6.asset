@@ -1,0 +1,249 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9fea5fc91f62a0b4b807b5a80a6f910a, type: 3}
+  m_Name: Map_6
+  m_EditorClassIdentifier: 
+  wallsInfo:
+  - wallVisual: 9
+    specialWall: 0
+    wallRefsSO: {fileID: 11400000, guid: 3ce1f13ab6490e64587454e8e64383d9, type: 2}
+    sortingOrder: 4978
+    isFlip: 0
+    posX: -2
+    posY: 0
+  - wallVisual: 6
+    specialWall: 0
+    wallRefsSO: {fileID: 11400000, guid: 3ce1f13ab6490e64587454e8e64383d9, type: 2}
+    sortingOrder: 4978
+    isFlip: 0
+    posX: 0
+    posY: 0
+  - wallVisual: 18
+    specialWall: 0
+    wallRefsSO: {fileID: 11400000, guid: 3ce1f13ab6490e64587454e8e64383d9, type: 2}
+    sortingOrder: 4982
+    isFlip: 1
+    posX: -4
+    posY: -2
+  - wallVisual: 18
+    specialWall: 0
+    wallRefsSO: {fileID: 11400000, guid: 3ce1f13ab6490e64587454e8e64383d9, type: 2}
+    sortingOrder: 4987
+    isFlip: 1
+    posX: 1
+    posY: -3
+  - wallVisual: 18
+    specialWall: 0
+    wallRefsSO: {fileID: 11400000, guid: 3ce1f13ab6490e64587454e8e64383d9, type: 2}
+    sortingOrder: 4987
+    isFlip: 1
+    posX: -1
+    posY: -3
+  - wallVisual: 18
+    specialWall: 0
+    wallRefsSO: {fileID: 11400000, guid: 3ce1f13ab6490e64587454e8e64383d9, type: 2}
+    sortingOrder: 4987
+    isFlip: 1
+    posX: -1
+    posY: -3
+  - wallVisual: 18
+    specialWall: 0
+    wallRefsSO: {fileID: 11400000, guid: 3ce1f13ab6490e64587454e8e64383d9, type: 2}
+    sortingOrder: 4987
+    isFlip: 1
+    posX: -1
+    posY: -3
+  - wallVisual: 18
+    specialWall: 0
+    wallRefsSO: {fileID: 11400000, guid: 3ce1f13ab6490e64587454e8e64383d9, type: 2}
+    sortingOrder: 4993
+    isFlip: 0
+    posX: 0
+    posY: -6
+  - wallVisual: 18
+    specialWall: 0
+    wallRefsSO: {fileID: 11400000, guid: 3ce1f13ab6490e64587454e8e64383d9, type: 2}
+    sortingOrder: 4988
+    isFlip: 0
+    posX: -2
+    posY: -4
+  - wallVisual: 10
+    specialWall: 0
+    wallRefsSO: {fileID: 11400000, guid: 3ce1f13ab6490e64587454e8e64383d9, type: 2}
+    sortingOrder: 4974
+    isFlip: 0
+    posX: 4
+    posY: 2
+  - wallVisual: 11
+    specialWall: 0
+    wallRefsSO: {fileID: 11400000, guid: 3ce1f13ab6490e64587454e8e64383d9, type: 2}
+    sortingOrder: 4972
+    isFlip: 0
+    posX: 7
+    posY: 3
+  - wallVisual: 12
+    specialWall: 0
+    wallRefsSO: {fileID: 11400000, guid: 3ce1f13ab6490e64587454e8e64383d9, type: 2}
+    sortingOrder: 4970
+    isFlip: 0
+    posX: -5.5
+    posY: 5
+  - wallVisual: 10
+    specialWall: 0
+    wallRefsSO: {fileID: 11400000, guid: 3ce1f13ab6490e64587454e8e64383d9, type: 2}
+    sortingOrder: 4978
+    isFlip: 0
+    posX: -7.5
+    posY: 0
+  - wallVisual: 11
+    specialWall: 0
+    wallRefsSO: {fileID: 11400000, guid: 3ce1f13ab6490e64587454e8e64383d9, type: 2}
+    sortingOrder: 4982
+    isFlip: 0
+    posX: 6
+    posY: -2
+  - wallVisual: 12
+    specialWall: 0
+    wallRefsSO: {fileID: 11400000, guid: 3ce1f13ab6490e64587454e8e64383d9, type: 2}
+    sortingOrder: 4993
+    isFlip: 0
+    posX: 3
+    posY: -6
+  - wallVisual: 12
+    specialWall: 0
+    wallRefsSO: {fileID: 11400000, guid: 3ce1f13ab6490e64587454e8e64383d9, type: 2}
+    sortingOrder: 4993
+    isFlip: 0
+    posX: 3
+    posY: -6
+  itemInfo:
+  - itemVisual: 0
+    itemRefsSO: {fileID: 11400000, guid: b69d67ebab402b34cad4bf356a3a6066, type: 2}
+    sortingOrder: 4969
+    posX: 1
+    posY: 4.6
+  - itemVisual: 2
+    itemRefsSO: {fileID: 11400000, guid: 254d8fd4f5c8d9647be6cb232e3b7113, type: 2}
+    sortingOrder: 4961
+    posX: 3
+    posY: 9.5
+  - itemVisual: 1
+    itemRefsSO: {fileID: 11400000, guid: 8f9772454834eef4ebfd02c63fd79236, type: 2}
+    sortingOrder: 4973
+    posX: -7
+    posY: 2
+  - itemVisual: 0
+    itemRefsSO: {fileID: 11400000, guid: b69d67ebab402b34cad4bf356a3a6066, type: 2}
+    sortingOrder: 4987
+    posX: -4.5
+    posY: -3.5
+  - itemVisual: 2
+    itemRefsSO: {fileID: 11400000, guid: 254d8fd4f5c8d9647be6cb232e3b7113, type: 2}
+    sortingOrder: 4998
+    posX: -7
+    posY: -10
+  - itemVisual: 0
+    itemRefsSO: {fileID: 11400000, guid: b69d67ebab402b34cad4bf356a3a6066, type: 2}
+    sortingOrder: 5000
+    posX: 6.5
+    posY: -13
+  - itemVisual: 1
+    itemRefsSO: {fileID: 11400000, guid: 8f9772454834eef4ebfd02c63fd79236, type: 2}
+    sortingOrder: 4982
+    posX: 2.5
+    posY: -2.5
+  - itemVisual: 2
+    itemRefsSO: {fileID: 11400000, guid: 254d8fd4f5c8d9647be6cb232e3b7113, type: 2}
+    sortingOrder: 4997
+    posX: 8
+    posY: -8.3
+  - itemVisual: 0
+    itemRefsSO: {fileID: 11400000, guid: b69d67ebab402b34cad4bf356a3a6066, type: 2}
+    sortingOrder: 4995
+    posX: 2
+    posY: -7.4
+  - itemVisual: 2
+    itemRefsSO: {fileID: 11400000, guid: 254d8fd4f5c8d9647be6cb232e3b7113, type: 2}
+    sortingOrder: 4963
+    posX: 8
+    posY: 9
+  - itemVisual: 3
+    itemRefsSO: {fileID: 11400000, guid: 20bfe55e0f09ad94c9a60699aaafa915, type: 2}
+    sortingOrder: 4990
+    posX: 12.8
+    posY: -5
+  - itemVisual: 3
+    itemRefsSO: {fileID: 11400000, guid: 20bfe55e0f09ad94c9a60699aaafa915, type: 2}
+    sortingOrder: 4966
+    posX: -10.7
+    posY: 6.5
+  obstacleInfo:
+  - obstacleVisual: 0
+    obstacleType: 0
+    sortingOrder: 4979
+    posX: 8
+    posY: -2
+  - obstacleVisual: 0
+    obstacleType: 0
+    sortingOrder: 4968
+    posX: -10
+    posY: 4.8
+  - obstacleVisual: 1
+    obstacleType: 0
+    sortingOrder: 4994
+    posX: 8.8
+    posY: -7.2
+  - obstacleVisual: 0
+    obstacleType: 0
+    sortingOrder: 4967
+    posX: 4.9
+    posY: 4.9
+  - obstacleVisual: 1
+    obstacleType: 0
+    sortingOrder: 4975
+    posX: 10.5
+    posY: 0
+  - obstacleVisual: 0
+    obstacleType: 0
+    sortingOrder: 4963
+    posX: 5
+    posY: 9
+  - obstacleVisual: 1
+    obstacleType: 0
+    sortingOrder: 4971
+    posX: -2
+    posY: 3.8
+  - obstacleVisual: 1
+    obstacleType: 0
+    sortingOrder: 4996
+    posX: -9
+    posY: -8
+  - obstacleVisual: 1
+    obstacleType: 0
+    sortingOrder: 4964
+    posX: -7.4
+    posY: 8.5
+  - obstacleVisual: 2
+    obstacleType: 1
+    sortingOrder: 4965
+    posX: 8.9
+    posY: 7
+  - obstacleVisual: 2
+    obstacleType: 1
+    sortingOrder: 4989
+    posX: 0
+    posY: -4.6
+  - obstacleVisual: 2
+    obstacleType: 1
+    sortingOrder: 4999
+    posX: -1.5
+    posY: -11

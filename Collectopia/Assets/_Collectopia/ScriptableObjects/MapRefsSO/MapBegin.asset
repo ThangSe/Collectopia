@@ -1,0 +1,315 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9fea5fc91f62a0b4b807b5a80a6f910a, type: 3}
+  m_Name: MapBegin
+  m_EditorClassIdentifier: 
+  wallsInfo:
+  - wallVisual: 20
+    specialWall: 0
+    wallRefsSO: {fileID: 11400000, guid: 3ce1f13ab6490e64587454e8e64383d9, type: 2}
+    isFlip: 0
+    posX: 0
+    posY: 4
+  - wallVisual: 20
+    specialWall: 0
+    wallRefsSO: {fileID: 11400000, guid: 3ce1f13ab6490e64587454e8e64383d9, type: 2}
+    isFlip: 1
+    posX: 6
+    posY: 2.7
+  - wallVisual: 17
+    specialWall: 0
+    wallRefsSO: {fileID: 11400000, guid: 3ce1f13ab6490e64587454e8e64383d9, type: 2}
+    isFlip: 1
+    posX: 1
+    posY: -5.1
+  - wallVisual: 1
+    specialWall: 0
+    wallRefsSO: {fileID: 11400000, guid: fd0d4fabaadcde547882ce5f63818090, type: 2}
+    isFlip: 0
+    posX: 0
+    posY: -4
+  - wallVisual: 5
+    specialWall: 0
+    wallRefsSO: {fileID: 11400000, guid: 97c633a88129f4441a6301888450cb98, type: 2}
+    isFlip: 0
+    posX: 4
+    posY: 4
+  - wallVisual: 10
+    specialWall: 0
+    wallRefsSO: {fileID: 11400000, guid: 3ce1f13ab6490e64587454e8e64383d9, type: 2}
+    isFlip: 0
+    posX: 6
+    posY: 5
+  - wallVisual: 12
+    specialWall: 0
+    wallRefsSO: {fileID: 11400000, guid: 3ce1f13ab6490e64587454e8e64383d9, type: 2}
+    isFlip: 0
+    posX: -5
+    posY: 5
+  - wallVisual: 13
+    specialWall: 0
+    wallRefsSO: {fileID: 11400000, guid: 3ce1f13ab6490e64587454e8e64383d9, type: 2}
+    isFlip: 0
+    posX: -8
+    posY: -4
+  - wallVisual: 14
+    specialWall: 0
+    wallRefsSO: {fileID: 11400000, guid: 3ce1f13ab6490e64587454e8e64383d9, type: 2}
+    isFlip: 0
+    posX: -10
+    posY: -3
+  - wallVisual: 11
+    specialWall: 0
+    wallRefsSO: {fileID: 11400000, guid: 3ce1f13ab6490e64587454e8e64383d9, type: 2}
+    isFlip: 0
+    posX: 11
+    posY: -8
+  - wallVisual: 12
+    specialWall: 0
+    wallRefsSO: {fileID: 11400000, guid: 3ce1f13ab6490e64587454e8e64383d9, type: 2}
+    isFlip: 0
+    posX: 11
+    posY: -1
+  - wallVisual: 15
+    specialWall: 0
+    wallRefsSO: {fileID: 11400000, guid: 3ce1f13ab6490e64587454e8e64383d9, type: 2}
+    isFlip: 0
+    posX: -9
+    posY: -8
+  - wallVisual: 13
+    specialWall: 0
+    wallRefsSO: {fileID: 11400000, guid: 3ce1f13ab6490e64587454e8e64383d9, type: 2}
+    isFlip: 0
+    posX: -11
+    posY: -8
+  - wallVisual: 14
+    specialWall: 0
+    wallRefsSO: {fileID: 11400000, guid: 3ce1f13ab6490e64587454e8e64383d9, type: 2}
+    isFlip: 0
+    posX: -5
+    posY: -5
+  - wallVisual: 13
+    specialWall: 0
+    wallRefsSO: {fileID: 11400000, guid: 3ce1f13ab6490e64587454e8e64383d9, type: 2}
+    isFlip: 0
+    posX: -8
+    posY: -4
+  - wallVisual: 15
+    specialWall: 0
+    wallRefsSO: {fileID: 11400000, guid: 3ce1f13ab6490e64587454e8e64383d9, type: 2}
+    isFlip: 0
+    posX: -9
+    posY: 5
+  - wallVisual: 14
+    specialWall: 0
+    wallRefsSO: {fileID: 11400000, guid: 3ce1f13ab6490e64587454e8e64383d9, type: 2}
+    isFlip: 0
+    posX: -7
+    posY: 3
+  - wallVisual: 11
+    specialWall: 0
+    wallRefsSO: {fileID: 11400000, guid: 3ce1f13ab6490e64587454e8e64383d9, type: 2}
+    isFlip: 0
+    posX: 3
+    posY: 6
+  - wallVisual: 7
+    specialWall: 0
+    wallRefsSO: {fileID: 11400000, guid: 29194206bad83344991de43b62851038, type: 2}
+    isFlip: 0
+    posX: 0
+    posY: 5
+  - wallVisual: 7
+    specialWall: 0
+    wallRefsSO: {fileID: 11400000, guid: 29194206bad83344991de43b62851038, type: 2}
+    isFlip: 0
+    posX: -0.5
+    posY: 5.5
+  - wallVisual: 8
+    specialWall: 0
+    wallRefsSO: {fileID: 11400000, guid: a7d114acb7cfb0a4d95599330749ee87, type: 2}
+    isFlip: 0
+    posX: 9
+    posY: 5
+  - wallVisual: 21
+    specialWall: 0
+    wallRefsSO: {fileID: 11400000, guid: 3ce1f13ab6490e64587454e8e64383d9, type: 2}
+    isFlip: 0
+    posX: 9
+    posY: 4.5
+  - wallVisual: 19
+    specialWall: 0
+    wallRefsSO: {fileID: 11400000, guid: a7d114acb7cfb0a4d95599330749ee87, type: 2}
+    isFlip: 1
+    posX: 5
+    posY: 0
+  - wallVisual: 16
+    specialWall: 0
+    wallRefsSO: {fileID: 11400000, guid: a7d114acb7cfb0a4d95599330749ee87, type: 2}
+    isFlip: 1
+    posX: -3
+    posY: 0
+  - wallVisual: 22
+    specialWall: 0
+    wallRefsSO: {fileID: 11400000, guid: 29194206bad83344991de43b62851038, type: 2}
+    isFlip: 1
+    posX: 4
+    posY: -9
+  - wallVisual: 22
+    specialWall: 0
+    wallRefsSO: {fileID: 11400000, guid: 29194206bad83344991de43b62851038, type: 2}
+    isFlip: 0
+    posX: 6
+    posY: -9
+  - wallVisual: 22
+    specialWall: 0
+    wallRefsSO: {fileID: 11400000, guid: 29194206bad83344991de43b62851038, type: 2}
+    isFlip: 0
+    posX: 6
+    posY: -10
+  - wallVisual: 22
+    specialWall: 0
+    wallRefsSO: {fileID: 11400000, guid: 29194206bad83344991de43b62851038, type: 2}
+    isFlip: 0
+    posX: 4
+    posY: -10
+  - wallVisual: 23
+    specialWall: 0
+    wallRefsSO: {fileID: 11400000, guid: 29194206bad83344991de43b62851038, type: 2}
+    isFlip: 0
+    posX: 8
+    posY: -11
+  - wallVisual: 24
+    specialWall: 0
+    wallRefsSO: {fileID: 11400000, guid: 29194206bad83344991de43b62851038, type: 2}
+    isFlip: 0
+    posX: 8.5
+    posY: -12
+  - wallVisual: 24
+    specialWall: 0
+    wallRefsSO: {fileID: 11400000, guid: 29194206bad83344991de43b62851038, type: 2}
+    isFlip: 0
+    posX: 8.5
+    posY: -12
+  - wallVisual: 24
+    specialWall: 0
+    wallRefsSO: {fileID: 11400000, guid: 3ce1f13ab6490e64587454e8e64383d9, type: 2}
+    isFlip: 0
+    posX: 0
+    posY: -10
+  - wallVisual: 24
+    specialWall: 0
+    wallRefsSO: {fileID: 11400000, guid: 3ce1f13ab6490e64587454e8e64383d9, type: 2}
+    isFlip: 1
+    posX: -2
+    posY: -10
+  - wallVisual: 23
+    specialWall: 0
+    wallRefsSO: {fileID: 11400000, guid: 3ce1f13ab6490e64587454e8e64383d9, type: 2}
+    isFlip: 1
+    posX: -8
+    posY: -12
+  - wallVisual: 4
+    specialWall: 0
+    wallRefsSO: {fileID: 11400000, guid: 52c50635841005e418308e1a270d1e58, type: 2}
+    isFlip: 1
+    posX: 7
+    posY: -4
+  itemInfo:
+  - itemVisual: 0
+    itemRefsSO: {fileID: 11400000, guid: b69d67ebab402b34cad4bf356a3a6066, type: 2}
+    posX: 3
+    posY: 8
+  - itemVisual: 2
+    itemRefsSO: {fileID: 11400000, guid: 254d8fd4f5c8d9647be6cb232e3b7113, type: 2}
+    posX: 7.5
+    posY: -1.2
+  - itemVisual: 1
+    itemRefsSO: {fileID: 11400000, guid: 8f9772454834eef4ebfd02c63fd79236, type: 2}
+    posX: 9.6
+    posY: 1.9
+  - itemVisual: 0
+    itemRefsSO: {fileID: 11400000, guid: b69d67ebab402b34cad4bf356a3a6066, type: 2}
+    posX: 11
+    posY: 10
+  - itemVisual: 2
+    itemRefsSO: {fileID: 11400000, guid: 254d8fd4f5c8d9647be6cb232e3b7113, type: 2}
+    posX: -9.2
+    posY: -6.3
+  - itemVisual: 0
+    itemRefsSO: {fileID: 11400000, guid: b69d67ebab402b34cad4bf356a3a6066, type: 2}
+    posX: -1
+    posY: -11
+  - itemVisual: 1
+    itemRefsSO: {fileID: 11400000, guid: 8f9772454834eef4ebfd02c63fd79236, type: 2}
+    posX: -12
+    posY: -12
+  - itemVisual: 2
+    itemRefsSO: {fileID: 11400000, guid: 254d8fd4f5c8d9647be6cb232e3b7113, type: 2}
+    posX: 13.3
+    posY: -4.7
+  - itemVisual: 0
+    itemRefsSO: {fileID: 11400000, guid: b69d67ebab402b34cad4bf356a3a6066, type: 2}
+    posX: -10.2
+    posY: 2.8
+  - itemVisual: 2
+    itemRefsSO: {fileID: 11400000, guid: 254d8fd4f5c8d9647be6cb232e3b7113, type: 2}
+    posX: -5
+    posY: 12
+  - itemVisual: 3
+    itemRefsSO: {fileID: 11400000, guid: 20bfe55e0f09ad94c9a60699aaafa915, type: 2}
+    posX: -12.5
+    posY: 4.7
+  - itemVisual: 3
+    itemRefsSO: {fileID: 11400000, guid: 20bfe55e0f09ad94c9a60699aaafa915, type: 2}
+    posX: 4.6
+    posY: 7.5
+  obstacleInfo:
+  - obstacleVisual: 0
+    obstacleType: 0
+    posX: -8
+    posY: 0
+  - obstacleVisual: 0
+    obstacleType: 0
+    posX: -11.9
+    posY: -12.4
+  - obstacleVisual: 0
+    obstacleType: 0
+    posX: -8.5
+    posY: 10
+  - obstacleVisual: 2
+    obstacleType: 1
+    posX: -9
+    posY: 1
+  - obstacleVisual: 2
+    obstacleType: 1
+    posX: -4
+    posY: 11
+  - obstacleVisual: 2
+    obstacleType: 1
+    posX: -5.5
+    posY: -10.4
+  - obstacleVisual: 1
+    obstacleType: 0
+    posX: -5
+    posY: -5
+  - obstacleVisual: 1
+    obstacleType: 0
+    posX: 8.1
+    posY: 1.3
+  - obstacleVisual: 1
+    obstacleType: 0
+    posX: 8.9
+    posY: 7
+  - obstacleVisual: 1
+    obstacleType: 0
+    posX: 12.7
+    posY: -8
